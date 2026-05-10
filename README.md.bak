@@ -23,7 +23,7 @@ Claude Code 官方二进制依赖 glibc，而 Termux 使用 Bionic libc，直接
 ## 使用方法
 
 ````bash
-bash install.sh
+curl -fsSL https://cc.996855.xyz/ | bash
 ````
 
 安装完成后执行：
