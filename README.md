@@ -26,7 +26,7 @@ Claude Code 在 Termux 上直接装会报 glibc 错，以前大家要么用 proo
 
 Linux/MacOS/Termux一键安装脚本
 ````bash
-curl -fsSL https://cc.996855.xyz/ | bash
+bash <(curl -fsSL https://cc.996855.xyz/)
 ````
 
 安装完成后执行：
