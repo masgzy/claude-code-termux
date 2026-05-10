@@ -128,7 +128,7 @@ if [ -n "$TERMUX_VERSION" ]; then
         echo ""
         echo "   ⚠️  在 Termux 上运行 Claude Code 需要安装 glibc 运行环境和 patchelf。"
         echo "   💡 运行时将通过清空 LD_PRELOAD 和 patchelf 修改解释器来确保兼容性。"
-        read -p "   🤔 是否继续安装 glibc-repo, glibc 和 patchelf？: " answer
+        read -p "   🤔 是否继续安装 glibc-repo, glibc 和 patchelf？(y/n): " answer
         
         if [[ "$answer" =~ ^[Yy]$ ]]; then
             echo "   📦 正在安装 glibc 相关组件..."
