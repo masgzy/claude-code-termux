@@ -37,6 +37,10 @@ source ~/.bashrc
 
 与官方脚本行为一致，支持 macOS / Linux。
 
+## 展示
+
+![自修复图片](https://edgeone.gh-proxy.org/https://raw.githubusercontent.com/masgzy/claude-code-termux/main/repair.jpg)
+
 ## 注意
 
 - 首次安装后**必须** ```source ~/.bashrc``` 或重启终端
