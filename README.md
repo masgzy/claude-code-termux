@@ -40,6 +40,7 @@ source ~/.bashrc
 ## 展示
 
 ![自修复图片](https://edgeone.gh-proxy.org/https://raw.githubusercontent.com/masgzy/claude-code-termux/main/repair.jpg)
+(上面两行命令为改为原二进制文件定义的lib文件路径)
 
 ## 注意
 
