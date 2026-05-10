@@ -5,6 +5,7 @@
 ## 为什么需要这个脚本？
 
 Claude Code 官方二进制依赖 glibc，而 Termux 使用 Bionic libc，直接运行会报错。本脚本自动解决这一兼容性问题。
+
 Claude Code 在 Termux 上直接装会报 glibc 错，以前大家要么用 proot 开虚拟 Linux，有点折腾。这个脚本帮你一键搞定，让 Claude Code 原生跑在 Termux 上，轻量、快速、自动适配官方更新。
 
 ## Termux 专属功能
