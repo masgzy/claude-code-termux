@@ -134,7 +134,7 @@ if [ -n "$TERMUX_VERSION" ]; then
             echo "   📦 正在安装 glibc 相关组件..."
             pkg update -y
             pkg install glibc-repo -y
-            pkg install glibc openssl-glibc -y
+            pkg install glibc -y
             pkg install patchelf -y
             echo "   ✅ glibc 和 patchelf 已安装完成"
         else
